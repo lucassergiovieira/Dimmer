@@ -2,7 +2,8 @@
 #define DIMMER_HPP
 #include "mbed.h"
 
-extern Pwm Leds[];
+extern PwmOut green[];
+extern DigitalOut led[];
 extern InterruptIn botton;
 void set_timer();
 void change_way();
